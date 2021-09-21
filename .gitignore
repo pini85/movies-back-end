@@ -1,5 +1,4 @@
 node_modules/
 .cert
-config/dev.js
 .elasticbeanstalk/
 
