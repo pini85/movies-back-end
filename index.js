@@ -24,6 +24,9 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
 require("./routes/authRoutes")(app);
 require("./routes/savedMovieRoutes")(app);
 
